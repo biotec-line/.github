@@ -1,16 +1,16 @@
 # biotec-line
 
-**Bioinformatics tools for genotype conversion & VCF processing.**
+**Bioinformatics tools for genotype conversion and VCF processing.**
+
+biotec-line provides command-line and desktop tools for working with genetic variant data, from raw DTC DNA files to annotated VCF outputs.
 
 ## Our Tools
 
 | App | Description |
-|-----|------------|
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | VCF file filtering & distillation |
-| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | Convert genotype data to VCF format |
+|-----|-------------|
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | Genetic variant processing with multi-source annotation (gnomAD, Ensembl VEP) |
+| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | Convert DTC DNA raw data (23andMe, MyHeritage) to VCF 4.2 format |
 
-## Part of the open-bricks ecosystem
+**Related:** [research-line](https://github.com/research-line) (open-access research publications)
 
-biotec-line is part of [open-bricks](https://github.com/open-bricks) — connecting open-source software, AI infrastructure, and research.
-
-**Research:** [research-line](https://github.com/research-line) · **AI infrastructure:** [ellmos-ai](https://github.com/ellmos-ai) · **All projects:** [open-bricks](https://github.com/open-bricks)
+Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
