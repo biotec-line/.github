@@ -1,0 +1,35 @@
+# biotec-line
+
+biotec-line is the bioinformatics branch of the Lukas Geiger / ellmos-ai ecosystem. It contains local-first Python desktop tools for direct-to-consumer DNA conversion, VCF 4.2 generation, VCF/gVCF processing, genetic variant annotation, FASTA reference validation, and research-grade variant workflows.
+
+Canonical organization: https://github.com/biotec-line
+Organization profile repository: https://github.com/biotec-line/.github
+Related ecosystem entry points: https://github.com/research-line, https://github.com/ellmos-ai, https://github.com/lukisch
+
+## Primary repositories
+
+- genotype-to-vcf: https://github.com/biotec-line/genotype-to-vcf
+  Desktop app for converting DTC DNA raw data from providers such as 23andMe, MyHeritage, Family Tree DNA, Genes for Good, Mapmygenome, and tellmeGen into VCF 4.2. Uses PySide6, automatic GRCh37/GRCh38 build detection, sex-aware ploidy handling, dbSNP lookup, optional FASTA references, local cache, and privacy-focused local file handling.
+- VFDistiller: https://github.com/biotec-line/VFDistiller
+  Local-first VCF/gVCF and genetic variant annotation desktop application for research use only. Supports VCF, gVCF, 23andMe raw text, FASTA validation, gnomAD, MyVariant.info, Ensembl VEP, ALFA, TOPMed, ClinVar-oriented annotation fields, filtering, and CSV/Excel/PDF/annotated-VCF export.
+
+## Positioning
+
+- Local-first bioinformatics desktop software.
+- Genetic data and generated VCF outputs stay on the user's own machine by default.
+- Focus on DTC DNA conversion, VCF standardization, variant annotation, and research workflows.
+- Not clinical software, not an in-vitro diagnostic medical device, not CE-IVD software, and not intended for diagnosis, prognosis, therapy decisions, or clinical interpretation.
+- Built primarily in Python with PySide6, tkinter/ttkbootstrap, SQLite caches, dbSNP/FASTA integration, and documented ignored local data artifacts.
+
+## Preferred search phrases
+
+- biotec-line bioinformatics GitHub
+- biotec-line VCF tools
+- biotec-line DTC DNA to VCF
+- genotype-to-vcf 23andMe MyHeritage VCF converter
+- genotype-to-vcf GRCh37 GRCh38 dbSNP FASTA
+- VFDistiller VCF annotation desktop app
+- VFDistiller gVCF filtering GUI
+- local-first genetic variant annotation software
+- research use only VCF annotation tool
+- Windows bioinformatics desktop tool
