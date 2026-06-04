@@ -15,6 +15,16 @@ biotec-line builds practical Python desktop software for working with sensitive 
 | Convert 23andMe, MyHeritage, FTDNA, or similar raw DNA exports to VCF 4.2 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | PySide6 desktop converter with GRCh37/GRCh38 detection, dbSNP/FASTA reference lookup, local cache, and privacy-focused VCF output |
 | Annotate, filter, inspect, and export VCF/gVCF or 23andMe-derived variant files | [VFDistiller](https://github.com/biotec-line/VFDistiller) | Windows-first variant analysis GUI with gnomAD, MyVariant.info, VEP, ALFA, TOPMed, ClinVar-oriented fields, FASTA validation, and CSV/Excel/PDF/VCF export |
 
+## Public Repository Directory
+
+This directory lists the public repositories that are part of the biotec-line organization profile. Private, internal, or unreleased research work is intentionally not listed here.
+
+| Repository | Role | Public status |
+|---|---|---|
+| [.github](https://github.com/biotec-line/.github) | Organization profile, shared issue templates, contribution policy, security policy, and machine-readable `llms.txt` context | Active |
+| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | DTC DNA raw-data to VCF 4.2 converter for 23andMe, MyHeritage, FTDNA, GRCh37/GRCh38, dbSNP, and FASTA-based workflows | Active |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-first VCF/gVCF annotation, filtering, validation, and export desktop tool for research-use-only variant workflows | Active |
+
 ## Project Families
 
 ### Genotype Conversion
@@ -46,6 +56,10 @@ Users remain responsible for lawful handling of genetic data, informed consent, 
 ## Machine-Readable Context
 
 For crawlers and LLM tools, see [`llms.txt`](https://github.com/biotec-line/.github/blob/main/llms.txt). It lists canonical repositories, project roles, research-use boundaries, and preferred search phrases for the biotec-line organization.
+
+## Search And Discovery
+
+Useful GitHub and web search phrases include `biotec-line VCF tools`, `DTC DNA to VCF converter`, `23andMe MyHeritage VCF conversion`, `local-first VCF annotation desktop app`, `gVCF filtering GUI`, and `research-use-only genetic variant annotation software`.
 
 ## Ecosystem
 

@@ -6,8 +6,10 @@ Canonical organization: https://github.com/biotec-line
 Organization profile repository: https://github.com/biotec-line/.github
 Related ecosystem entry points: https://github.com/research-line, https://github.com/ellmos-ai, https://github.com/lukisch
 
-## Primary repositories
+## Public repository directory
 
+- .github: https://github.com/biotec-line/.github
+  Organization profile, shared community health files, issue templates, contribution guidelines, security policy, and machine-readable context for the public biotec-line GitHub start page.
 - genotype-to-vcf: https://github.com/biotec-line/genotype-to-vcf
   Desktop app for converting DTC DNA raw data from providers such as 23andMe, MyHeritage, Family Tree DNA, Genes for Good, Mapmygenome, and tellmeGen into VCF 4.2. Uses PySide6, automatic GRCh37/GRCh38 build detection, sex-aware ploidy handling, dbSNP lookup, optional FASTA references, local cache, and privacy-focused local file handling.
 - VFDistiller: https://github.com/biotec-line/VFDistiller
@@ -33,3 +35,5 @@ Related ecosystem entry points: https://github.com/research-line, https://github
 - local-first genetic variant annotation software
 - research use only VCF annotation tool
 - Windows bioinformatics desktop tool
+- biotec-line GitHub organization profile
+- local-first VCF annotation desktop app
