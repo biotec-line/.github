@@ -6,14 +6,20 @@ Canonical organization: https://github.com/biotec-line
 Organization profile repository: https://github.com/biotec-line/.github
 Related ecosystem entry points: https://github.com/research-line, https://github.com/ellmos-ai, https://github.com/lukisch
 
+Last-checked: 2026-06-10
+
+## Audience
+
+Researchers, bioinformaticians, and technical users who need local-first tools for genetic variant workflows, DTC DNA conversion, and offline VCF processing. Not for clinical or diagnostic use.
+
 ## Public repository directory
 
 - .github: https://github.com/biotec-line/.github
   Organization profile, shared community health files, issue templates, contribution guidelines, security policy, and machine-readable context for the public biotec-line GitHub start page.
 - genotype-to-vcf: https://github.com/biotec-line/genotype-to-vcf
-  Desktop app for converting DTC DNA raw data from providers such as 23andMe, MyHeritage, Family Tree DNA, Genes for Good, Mapmygenome, and tellmeGen into VCF 4.2. Uses PySide6, automatic GRCh37/GRCh38 build detection, sex-aware ploidy handling, dbSNP lookup, optional FASTA references, local cache, and privacy-focused local file handling.
+  Desktop and CLI app for converting DTC DNA raw data from providers such as 23andMe, MyHeritage, Family Tree DNA, Genes for Good, Mapmygenome, and tellmeGen into VCF 4.2. Uses PySide6, automatic GRCh37/GRCh38 build detection, sex-aware ploidy handling, dbSNP lookup, optional FASTA references, local cache, SHA256 release verification, and privacy-focused local file handling. Supports macOS and Linux via headless CLI mode.
 - VFDistiller: https://github.com/biotec-line/VFDistiller
-  Local-first VCF/gVCF and genetic variant annotation desktop application for research use only. Supports VCF, gVCF, 23andMe raw text, FASTA validation, gnomAD, MyVariant.info, Ensembl VEP, ALFA, TOPMed, ClinVar-oriented annotation fields, filtering, and CSV/Excel/PDF/annotated-VCF export.
+  Local-first VCF/gVCF and genetic variant annotation desktop application for research use only. Supports VCF, gVCF, 23andMe raw text, FASTA validation, gnomAD, MyVariant.info, Ensembl VEP, ALFA, TOPMed, ClinVar-oriented annotation fields, filtering, CSV/Excel/PDF/annotated-VCF export, dependency auditing, and cross-platform smoke tests (Windows, macOS, Linux).
 
 ## Positioning
 
@@ -22,6 +28,7 @@ Related ecosystem entry points: https://github.com/research-line, https://github
 - Focus on DTC DNA conversion, VCF standardization, variant annotation, and research workflows.
 - Not clinical software, not an in-vitro diagnostic medical device, not CE-IVD software, and not intended for diagnosis, prognosis, therapy decisions, or clinical interpretation.
 - Built primarily in Python with PySide6, tkinter/ttkbootstrap, SQLite caches, dbSNP/FASTA integration, and documented ignored local data artifacts.
+- Cross-platform CLI support: genotype-to-vcf runs headless on macOS and Linux for pipeline use.
 
 ## Preferred search phrases
 
@@ -30,6 +37,7 @@ Related ecosystem entry points: https://github.com/research-line, https://github
 - biotec-line DTC DNA to VCF
 - genotype-to-vcf 23andMe MyHeritage VCF converter
 - genotype-to-vcf GRCh37 GRCh38 dbSNP FASTA
+- genotype-to-vcf CLI headless pipeline
 - VFDistiller VCF annotation desktop app
 - VFDistiller gVCF filtering GUI
 - local-first genetic variant annotation software
@@ -37,3 +45,5 @@ Related ecosystem entry points: https://github.com/research-line, https://github
 - Windows bioinformatics desktop tool
 - biotec-line GitHub organization profile
 - local-first VCF annotation desktop app
+- DTC DNA raw data offline converter Python
+- SHA256 verified genetic data release
