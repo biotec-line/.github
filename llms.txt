@@ -1,3 +1,5 @@
+## Last-checked: 2026-06-11
+
 # biotec-line
 
 biotec-line is the bioinformatics branch of the Lukas Geiger / ellmos-ai ecosystem. It contains local-first Python desktop tools for direct-to-consumer DNA conversion, VCF 4.2 generation, VCF/gVCF processing, genetic variant annotation, FASTA reference validation, and research-grade variant workflows.
@@ -5,8 +7,6 @@ biotec-line is the bioinformatics branch of the Lukas Geiger / ellmos-ai ecosyst
 Canonical organization: https://github.com/biotec-line
 Organization profile repository: https://github.com/biotec-line/.github
 Related ecosystem entry points: https://github.com/research-line, https://github.com/ellmos-ai, https://github.com/lukisch
-
-Last-checked: 2026-06-10
 
 ## Audience
 
@@ -30,20 +30,22 @@ Researchers, bioinformaticians, and technical users who need local-first tools f
 - Built primarily in Python with PySide6, tkinter/ttkbootstrap, SQLite caches, dbSNP/FASTA integration, and documented ignored local data artifacts.
 - Cross-platform CLI support: genotype-to-vcf runs headless on macOS and Linux for pipeline use.
 
-## Preferred search phrases
+## Search Phrases
 
-- biotec-line bioinformatics GitHub
-- biotec-line VCF tools
-- biotec-line DTC DNA to VCF
-- genotype-to-vcf 23andMe MyHeritage VCF converter
-- genotype-to-vcf GRCh37 GRCh38 dbSNP FASTA
-- genotype-to-vcf CLI headless pipeline
-- VFDistiller VCF annotation desktop app
-- VFDistiller gVCF filtering GUI
-- local-first genetic variant annotation software
-- research use only VCF annotation tool
-- Windows bioinformatics desktop tool
-- biotec-line GitHub organization profile
-- local-first VCF annotation desktop app
-- DTC DNA raw data offline converter Python
-- SHA256 verified genetic data release
+```
+biotec-line bioinformatics GitHub
+biotec-line VCF tools
+biotec-line DTC DNA to VCF
+genotype-to-vcf 23andMe MyHeritage VCF converter
+genotype-to-vcf GRCh37 GRCh38 dbSNP FASTA
+genotype-to-vcf CLI headless pipeline
+VFDistiller VCF annotation desktop app
+VFDistiller gVCF filtering GUI
+local-first genetic variant annotation software
+research use only VCF annotation tool
+Windows bioinformatics desktop tool
+biotec-line GitHub organization profile
+local-first VCF annotation desktop app
+DTC DNA raw data offline converter Python
+SHA256 verified genetic data release
+```
