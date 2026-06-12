@@ -1,6 +1,6 @@
 <!-- last-checked: 2026-06-11 -->
 <p align="center">
-  <img src="./logo.jpg" alt="biotec-line logo" width="120">
+  <img src="./logo.jpg" alt="biotec-line logo" width="925">
 </p>
 
 # biotec-line
