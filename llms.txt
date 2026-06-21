@@ -1,4 +1,4 @@
-## Last-checked: 2026-06-11
+## Last-checked: 2026-06-21
 
 # biotec-line
 
@@ -7,6 +7,7 @@ biotec-line is the bioinformatics branch of the Lukas Geiger / ellmos-ai ecosyst
 Canonical organization: https://github.com/biotec-line
 Organization profile repository: https://github.com/biotec-line/.github
 Related ecosystem entry points: https://github.com/research-line, https://github.com/ellmos-ai, https://github.com/lukisch
+Public repository count: 3. Current public repositories: .github, VFDistiller, genotype-to-vcf. Private, internal, or unreleased work is intentionally excluded.
 
 ## Audience
 
@@ -41,6 +42,7 @@ genotype-to-vcf GRCh37 GRCh38 dbSNP FASTA
 genotype-to-vcf CLI headless pipeline
 VFDistiller VCF annotation desktop app
 VFDistiller gVCF filtering GUI
+VFDistiller gnomAD FASTA variant review
 local-first genetic variant annotation software
 research use only VCF annotation tool
 Windows bioinformatics desktop tool
