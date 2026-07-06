@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-06-21 -->
+<!-- last-checked: 2026-07-06 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line logo" width="925">
 </p>
@@ -9,6 +9,28 @@
 
 biotec-line builds practical Python desktop software for working with sensitive genetic files on the user's own machine. The current projects focus on converting direct-to-consumer DNA exports into VCF 4.2, validating genome builds, annotating VCF/gVCF data, filtering variants, and exporting research-oriented results without turning genetic data into a cloud workflow.
 
+## Workflow Overview
+
+The biotec-line ecosystem provides an offline-first pipeline for processing and annotating direct-to-consumer (DTC) genomic data:
+
+```mermaid
+graph TD
+    Input[DTC DNA Raw Data<br/><i>23andMe, MyHeritage, FTDNA, etc.</i>] --> G2V(genotype-to-vcf)
+    
+    G2V -->|dbSNP / FASTA Ref Lookup| BuildDetect{Auto-Detect Build}
+    BuildDetect -->|GRCh37 / GRCh38| OutVCF[Standard VCF 4.2 File]
+    
+    OutVCF --> VFD(VFDistiller)
+    VFD -->|Local Cache / DBs| Annotate{Annotation & Filtering}
+    Annotate -->|gnomAD / ClinVar / VEP| Reports[Research Reports<br/><i>Excel, CSV, PDF, VCF</i>]
+    
+    classDef default fill:#1e1e2e,stroke:#45475a,stroke-width:2px,color:#cdd6f4;
+    classDef tool fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#eff6ff;
+    classDef data fill:#313244,stroke:#585b70,stroke-width:1px,color:#cdd6f4;
+    class G2V,VFD tool;
+    class Input,OutVCF,Reports data;
+```
+
 ## Start Here
 
 | Need | Start with | Why |
@@ -18,7 +40,7 @@ biotec-line builds practical Python desktop software for working with sensitive 
 
 ## Public Repository Directory
 
-This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on 2026-06-21. Private, internal, or unreleased research work is intentionally not listed here.
+This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on 2026-07-06. Private, internal, or unreleased research work is intentionally not listed here.
 
 | Repository | Role | Public status |
 |---|---|---|
@@ -42,9 +64,12 @@ This directory lists all 3 public repositories that are part of the biotec-line 
 
 ## Research Use Boundary
 
-These tools are built for bioinformatics research, teaching, software development, and reproducible local workflows. They are **not medical devices**, **not in-vitro diagnostic products**, **not clinically validated**, and **not intended for diagnosis, prognosis, therapy decisions, or clinical interpretation of genetic results**.
-
-Users remain responsible for lawful handling of genetic data, informed consent, data minimization, local storage security, and interpretation by qualified professionals where health-related questions are involved.
+> [!IMPORTANT]
+> **Research Use Only**
+>
+> These tools are built for bioinformatics research, teaching, software development, and reproducible local workflows. They are **not medical devices**, **not in-vitro diagnostic products**, **not clinically validated**, and **not intended for diagnosis, prognosis, therapy decisions, or clinical interpretation of genetic results**.
+>
+> Users remain responsible for lawful handling of genetic data, informed consent, data minimization, local storage security, and interpretation by qualified professionals where health-related questions are involved.
 
 ## Design Principles
 
@@ -66,4 +91,9 @@ Useful GitHub and web search phrases include `biotec-line VCF tools`, `DTC DNA t
 
 biotec-line is the bioinformatics branch of the broader research and AI tool ecosystem:
 
-[research-line](https://github.com/research-line) | [ellmos-ai](https://github.com/ellmos-ai) | [lukisch](https://github.com/lukisch)
+| Organization | Purpose | Link |
+|---|---|---|
+| **open-bricks** | Umbrella organization for all tools | [open-bricks](https://github.com/open-bricks) |
+| **research-line** | Open-Science and research repositories | [research-line](https://github.com/research-line) |
+| **ellmos-ai** | AI Infrastructure and Agent framework | [ellmos-ai](https://github.com/ellmos-ai) |
+| **lukisch** | Personal developer profile | [lukisch](https://github.com/lukisch) |

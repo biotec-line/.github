@@ -1,12 +1,12 @@
 # biotec-line .github
 
-<!-- public-index-last-checked: 2026-06-21 -->
+<!-- public-index-last-checked: 2026-07-06 -->
 
 Organization profile and community health files for [biotec-line](https://github.com/biotec-line).
 
 This repository controls the public organization overview shown on GitHub and the shared contribution, security, issue, and pull request templates used across the biotec-line bioinformatics projects.
 
-The public profile README is also the maintained repository directory for the organization: it lists all public biotec-line repositories and deliberately excludes private, internal, or unreleased work. The current public index was verified against GitHub on 2026-06-21.
+The public profile README is also the maintained repository directory for the organization: it lists all public biotec-line repositories and deliberately excludes private, internal, or unreleased work. The current public index was verified against GitHub on 2026-07-06.
 
 ## Public Repository Directory
 
