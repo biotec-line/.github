@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-07-06 -->
+<!-- last-checked: 2026-07-18 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line logo" width="925">
 </p>
@@ -8,6 +8,16 @@
 **Local-first bioinformatics tools for DTC DNA conversion, VCF/gVCF processing, genetic variant annotation, and research-grade desktop and CLI workflows.**
 
 biotec-line builds practical Python desktop software for working with sensitive genetic files on the user's own machine. The current projects focus on converting direct-to-consumer DNA exports into VCF 4.2, validating genome builds, annotating VCF/gVCF data, filtering variants, and exporting research-oriented results without turning genetic data into a cloud workflow.
+
+## Current Public Activity
+
+The organization profile currently indexes all 3 public biotec-line repositories verified through GitHub metadata on 2026-07-18.
+
+| Repository | Latest public push | Public focus |
+|---|---:|---|
+| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-07-16 | DTC DNA raw-data to VCF 4.2 conversion with PySide6 GUI, headless CLI, GRCh37/GRCh38 detection, dbSNP, and FASTA reference lookup |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-07-15 | Local-first VCF/gVCF annotation, filtering, validation, dependency audit, and research export desktop workflows |
+| [.github](https://github.com/biotec-line/.github) | 2026-07-18 | Public organization start page, community-health defaults, and machine-readable `llms.txt` discovery context |
 
 ## Workflow Overview
 
@@ -40,13 +50,13 @@ graph TD
 
 ## Public Repository Directory
 
-This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on 2026-07-06. Private, internal, or unreleased research work is intentionally not listed here.
+This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on 2026-07-18. Private, internal, or unreleased research work is intentionally not listed here.
 
 | Repository | Role | Public status |
 |---|---|---|
 | [.github](https://github.com/biotec-line/.github) | Organization profile, shared issue templates, contribution policy, security policy, and machine-readable `llms.txt` context | Active |
 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | DTC DNA raw-data to VCF 4.2 converter for 23andMe, MyHeritage, FTDNA, GRCh37/GRCh38, dbSNP, FASTA, SHA256 release checksums, and CLI pipeline workflows | Active |
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-first VCF/gVCF annotation, filtering, validation, dependency audit, gnomAD/FASTA-oriented review, and export desktop tool for research-use-only variant workflows | Active |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-first VCF/gVCF annotation, filtering, validation, dependency audit, gnomAD/ClinVar-oriented fields, FASTA-oriented review, and export desktop tool for research-use-only variant workflows | Active |
 
 ## Project Families
 
@@ -85,7 +95,7 @@ For crawlers and LLM tools, see [`llms.txt`](https://github.com/biotec-line/.git
 
 ## Search And Discovery
 
-Useful GitHub and web search phrases include `biotec-line VCF tools`, `DTC DNA to VCF converter`, `23andMe MyHeritage VCF conversion`, `local-first VCF annotation desktop app`, `genotype-to-vcf CLI headless pipeline`, `gVCF filtering GUI`, `gnomAD FASTA variant review`, and `research-use-only genetic variant annotation software`.
+Useful GitHub and web search phrases include `biotec-line VCF tools`, `DTC DNA to VCF converter`, `23andMe MyHeritage FTDNA VCF conversion`, `local-first VCF annotation desktop app`, `genotype-to-vcf CLI headless pipeline`, `gVCF filtering GUI`, `gnomAD ClinVar FASTA variant review`, and `research-use-only genetic variant annotation software`.
 
 ## Ecosystem
 
