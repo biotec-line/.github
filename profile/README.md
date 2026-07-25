@@ -1,23 +1,35 @@
-<!-- last-checked: 2026-07-18 -->
+<!-- last-checked: 2026-07-25 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line logo" width="925">
+</p>
+
+<p align="center">
+  <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Public_Repos-3-blue.svg?style=flat-square" alt="Public Repos"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="MIT License"></a>
+  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square" alt="Python 3.10+"></a>
+  <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Data_Privacy-Local--First-emerald.svg?style=flat-square" alt="Local-First"></a>
+  <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Domain-Bioinformatics-purple.svg?style=flat-square" alt="Bioinformatics"></a>
 </p>
 
 # biotec-line
 
 **Local-first bioinformatics tools for DTC DNA conversion, VCF/gVCF processing, genetic variant annotation, and research-grade desktop and CLI workflows.**
 
+> [!NOTE]
+> **Machine-Readable Context & Index**<br/>
+> This organization profile serves as the central index for all public bioinformatics software in **biotec-line**. All genetic processing, variant annotation, and file parsing occur locally on the user's machine. For LLMs, search engines, and automated crawlers, see [`llms.txt`](https://github.com/biotec-line/.github/blob/main/llms.txt).
+
 biotec-line builds practical Python desktop software for working with sensitive genetic files on the user's own machine. The current projects focus on converting direct-to-consumer DNA exports into VCF 4.2, validating genome builds, annotating VCF/gVCF data, filtering variants, and exporting research-oriented results without turning genetic data into a cloud workflow.
 
 ## Current Public Activity
 
-The organization profile currently indexes all 3 public biotec-line repositories verified through GitHub metadata on 2026-07-18.
+The organization profile currently indexes all 3 public biotec-line repositories verified through GitHub metadata on 2026-07-25.
 
 | Repository | Latest public push | Public focus |
 |---|---:|---|
-| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-07-16 | DTC DNA raw-data to VCF 4.2 conversion with PySide6 GUI, headless CLI, GRCh37/GRCh38 detection, dbSNP, and FASTA reference lookup |
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-07-15 | Local-first VCF/gVCF annotation, filtering, validation, dependency audit, and research export desktop workflows |
-| [.github](https://github.com/biotec-line/.github) | 2026-07-18 | Public organization start page, community-health defaults, and machine-readable `llms.txt` discovery context |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-07-25 | Local-first VCF/gVCF annotation, filtering, validation, dependency audit, and research export desktop workflows |
+| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-07-24 | DTC DNA raw-data to VCF 4.2 conversion with PySide6 GUI, headless CLI, GRCh37/GRCh38 detection, dbSNP, and FASTA reference lookup |
+| [.github](https://github.com/biotec-line/.github) | 2026-07-25 | Public organization start page, community-health defaults, and machine-readable `llms.txt` discovery context |
 
 ## Workflow Overview
 
@@ -50,7 +62,7 @@ graph TD
 
 ## Public Repository Directory
 
-This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on 2026-07-18. Private, internal, or unreleased research work is intentionally not listed here.
+This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on 2026-07-25. Private, internal, or unreleased research work is intentionally not listed here.
 
 | Repository | Role | Public status |
 |---|---|---|
