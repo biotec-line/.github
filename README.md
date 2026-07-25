@@ -28,7 +28,8 @@ The public profile README is also the maintained repository directory for the or
 
 | Path | Purpose |
 |---|---|
-| `profile/README.md` | Public organization profile for `github.com/biotec-line` |
+| `profile/README.md` | Public organization profile for `github.com/biotec-line` (English) |
+| `profile/README_de.md` | Public organization profile for `github.com/biotec-line` (German / Deutsch) |
 | `llms.txt` | Machine-readable context for search engines, crawlers, and LLM tools |
 | `CONTRIBUTING.md` | Shared contribution guidelines |
 | `SECURITY.md` | Shared security policy |
