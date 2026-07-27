@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-07-25 -->
+<!-- last-checked: 2026-07-27 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line logo" width="925">
 </p>
@@ -24,13 +24,13 @@ biotec-line builds practical Python desktop software for working with sensitive 
 
 ## Current Public Activity
 
-The organization profile currently indexes all 3 public biotec-line repositories verified through GitHub metadata on 2026-07-25.
+The organization profile currently indexes all 3 public biotec-line repositories verified through GitHub metadata on 2026-07-27.
 
 | Repository | Latest public push | Public focus |
 |---|---:|---|
 | [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-07-25 | Local-first VCF/gVCF annotation, filtering, validation, dependency audit, and research export desktop workflows |
-| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-07-24 | DTC DNA raw-data to VCF 4.2 conversion with PySide6 GUI, headless CLI, GRCh37/GRCh38 detection, dbSNP, and FASTA reference lookup |
-| [.github](https://github.com/biotec-line/.github) | 2026-07-25 | Public organization start page, community-health defaults, and machine-readable `llms.txt` discovery context |
+| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-07-26 | DTC DNA raw-data to VCF 4.2 conversion with PySide6 GUI, headless CLI, GRCh37/GRCh38 detection, dbSNP, and FASTA reference lookup |
+| [.github](https://github.com/biotec-line/.github) | 2026-07-27 | Public organization start page, community-health defaults, and machine-readable `llms.txt` discovery context |
 
 ## Workflow Overview
 
@@ -63,7 +63,7 @@ graph TD
 
 ## Public Repository Directory
 
-This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on 2026-07-25. Private, internal, or unreleased research work is intentionally not listed here.
+This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on 2026-07-27. Private, internal, or unreleased research work is intentionally not listed here.
 
 | Repository | Role | Public status |
 |---|---|---|
