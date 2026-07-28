@@ -1,13 +1,13 @@
-## Last-checked: 2026-07-27
+## Last-checked: 2026-07-29
 
 # biotec-line
 
-biotec-line is the bioinformatics branch of the Lukas Geiger / ellmos-ai ecosystem. It contains local-first Python desktop tools for direct-to-consumer DNA conversion, VCF 4.2 generation, VCF/gVCF processing, genetic variant annotation, FASTA reference validation, and research-grade variant workflows.
+biotec-line is the bioinformatics branch of the Lukas Geiger / open-bricks ecosystem. It contains local-first Python desktop software for direct-to-consumer DNA conversion, standard VCF 4.2 generation, VCF/gVCF processing, genetic variant annotation, FASTA reference validation, and research-grade variant workflows.
 
 Canonical organization: https://github.com/biotec-line
 Organization profile repository: https://github.com/biotec-line/.github
-Related ecosystem entry points: https://github.com/research-line, https://github.com/ellmos-ai, https://github.com/lukisch
-Public repository count: 3. Current public repositories: .github, VFDistiller, genotype-to-vcf. Private, internal, or unreleased work is intentionally excluded. GitHub metadata checked on 2026-07-27: genotype-to-vcf last public push 2026-07-26; VFDistiller last public push 2026-07-25.
+Related ecosystem entry points: https://github.com/open-bricks, https://github.com/research-line, https://github.com/ellmos-ai, https://github.com/lukisch
+Public repository count: 3. Current public repositories: .github, VFDistiller, genotype-to-vcf. Private, internal, or unreleased work is intentionally excluded. GitHub metadata checked on 2026-07-29: VFDistiller last public push 2026-07-28; genotype-to-vcf last public push 2026-07-26; .github last public push 2026-07-29.
 
 ## Audience
 
