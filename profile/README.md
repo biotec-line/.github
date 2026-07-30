@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-07-29 -->
+<!-- last-checked: 2026-07-30 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line logo" width="925">
 </p>
@@ -9,6 +9,7 @@
   <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square" alt="Python 3.10+"></a>
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Data_Privacy-Local--First-emerald.svg?style=flat-square" alt="Local-First"></a>
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Domain-Bioinformatics-purple.svg?style=flat-square" alt="Bioinformatics"></a>
+  <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ecosystem-open--bricks-orange.svg?style=flat-square" alt="open-bricks"></a>
   <a href="README_de.md"><img src="https://img.shields.io/badge/Sprache-Deutsch-lightgrey.svg?style=flat-square" alt="German Version"></a>
 </p>
 
@@ -24,13 +25,13 @@ biotec-line builds practical, privacy-centric Python desktop software for workin
 
 ## Current Public Activity
 
-The organization profile indexes all 3 public biotec-line repositories, verified against GitHub metadata on **2026-07-29**.
+The organization profile indexes all 3 public biotec-line repositories, verified against GitHub metadata on **2026-07-30**.
 
 | Repository | Latest public push | Public focus |
 |---|---:|---|
 | [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-07-28 | Local-first VCF/gVCF annotation, filtering, validation, dependency audit, gnomAD/ClinVar-oriented fields, and research export desktop workflows |
 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-07-26 | DTC DNA raw-data to VCF 4.2 conversion with PySide6 GUI, headless CLI, GRCh37/GRCh38 detection, dbSNP, and FASTA reference lookup |
-| [.github](https://github.com/biotec-line/.github) | 2026-07-29 | Public organization start page, shared community-health defaults, and machine-readable `llms.txt` discovery context |
+| [.github](https://github.com/biotec-line/.github) | 2026-07-30 | Public organization start page, shared community-health defaults, and machine-readable `llms.txt` discovery context |
 
 ## Workflow Overview
 
@@ -63,7 +64,7 @@ graph TD
 
 ## Public Repository Directory
 
-This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on **2026-07-29**. Private, internal, or unreleased research work is intentionally not listed here.
+This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on **2026-07-30**. Private, internal, or unreleased research work is intentionally not listed here.
 
 | Repository | Role | Public status |
 |---|---|---|

@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-07-29 -->
+<!-- last-checked: 2026-07-30 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line Logo" width="925">
 </p>
@@ -9,6 +9,7 @@
   <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square" alt="Python 3.10+"></a>
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Datenschutz-Local--First-emerald.svg?style=flat-square" alt="Local-First"></a>
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Bereich-Bioinformatik-purple.svg?style=flat-square" alt="Bioinformatik"></a>
+  <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ökosystem-open--bricks-orange.svg?style=flat-square" alt="open-bricks"></a>
   <a href="README.md"><img src="https://img.shields.io/badge/Language-English-lightgrey.svg?style=flat-square" alt="English Version"></a>
 </p>
 
@@ -24,13 +25,13 @@ biotec-line entwickelt praxiserprobte Python-Desktop-Software zur sicheren Verar
 
 ## Aktuelle öffentliche Aktivitäten
 
-Das Organisationsprofil indexiert alle 3 öffentlichen biotec-line Repositories (verifiziert über GitHub-Metadaten am **29. Juli 2026**).
+Das Organisationsprofil indexiert alle 3 öffentlichen biotec-line Repositories (verifiziert über GitHub-Metadaten am **30. Juli 2026**).
 
 | Repository | Letzter öffentlicher Push | Hauptfokus |
 |---|---:|---|
 | [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-07-28 | Local-First VCF/gVCF-Annotation, Filterung, Validierung, Abhängigkeits-Audit und wissenschaftliche Export-Workflows |
 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-07-26 | DTC-DNA-Rohdaten zu VCF 4.2 Konvertierung mit PySide6 GUI, Headless CLI, GRCh37/GRCh38 Erkennung, dbSNP und FASTA Referenz-Lookup |
-| [.github](https://github.com/biotec-line/.github) | 2026-07-29 | Öffentliche Startseite der Organisation, Community-Standards und maschinenlesbarer `llms.txt` Kontext |
+| [.github](https://github.com/biotec-line/.github) | 2026-07-30 | Öffentliche Startseite der Organisation, Community-Standards und maschinenlesbarer `llms.txt` Kontext |
 
 ## Workflow-Übersicht
 
@@ -63,7 +64,7 @@ graph TD
 
 ## Verzeichnis Öffentlicher Repositories
 
-Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation biotec-line auf (Stand: **29. Juli 2026**). Private, interne oder noch unveröffentlichte Entwicklungsstände werden bewusst ausgeschlossen.
+Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation biotec-line auf (Stand: **30. Juli 2026**). Private, interne oder noch unveröffentlichte Entwicklungsstände werden bewusst ausgeschlossen.
 
 | Repository | Rolle | Status |
 |---|---|---|
