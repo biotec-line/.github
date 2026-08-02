@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-07-30 -->
+<!-- last-checked: 2026-08-02 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line Logo" width="925">
 </p>
@@ -9,6 +9,8 @@
   <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square" alt="Python 3.10+"></a>
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Datenschutz-Local--First-emerald.svg?style=flat-square" alt="Local-First"></a>
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Bereich-Bioinformatik-purple.svg?style=flat-square" alt="Bioinformatik"></a>
+  <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Standards-VCF_4.2_%7C_gVCF-teal.svg?style=flat-square" alt="VCF 4.2 | gVCF"></a>
+  <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Builds-GRCh37_%7C_GRCh38-blueviolet.svg?style=flat-square" alt="GRCh37 | GRCh38"></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ökosystem-open--bricks-orange.svg?style=flat-square" alt="open-bricks"></a>
   <a href="README.md"><img src="https://img.shields.io/badge/Language-English-lightgrey.svg?style=flat-square" alt="English Version"></a>
 </p>
@@ -21,17 +23,17 @@
 > **Maschinenlesbarer Kontext & Verzeichnis**<br/>
 > Dieses Organisationsprofil dient als zentrales Verzeichnis für alle öffentlichen Bioinformatik-Softwareprojekte von **biotec-line**. Sämtliche Genom-Verarbeitungen, Varianten-Annotationen und Dateianalysen finden lokal auf dem Rechner des Nutzers statt. Für LLMs, Suchmaschinen und automatisierte Crawler siehe [`llms.txt`](https://github.com/biotec-line/.github/blob/main/llms.txt).
 
-biotec-line entwickelt praxiserprobte Python-Desktop-Software zur sicheren Verarbeitung sensibler genetischer Daten auf der eigenen Hardware. Die aktuellen Projekte konzentrieren sich auf die Konvertierung von Direct-to-Consumer (DTC) DNA-Rohdaten (23andMe, MyHeritage, FTDNA usw.) in VCF 4.2, Genom-Build-Erkennung (GRCh37/GRCh38), VCF/gVCF-Annotation, Varianten-Filterung und den Export forschungsorientierter Ergebnisse — ohne genetische Daten in eine Cloud zu übertragen.
+biotec-line entwickelt praxiserprobte Python-Desktop-Software zur sicheren Verarbeitung sensibler genetischer Daten auf der eigenen Hardware. Die aktuellen Projekte konzentrieren sich auf die Konvertierung von Direct-to-Consumer (DTC) DNA-Rohdaten (23andMe, MyHeritage, FTDNA, TellMeGen usw.) in VCF 4.2, Genom-Build-Erkennung (GRCh37/GRCh38), VCF/gVCF-Annotation, Varianten-Filterung und den Export forschungsorientierter Ergebnisse — ohne genetische Daten in eine Cloud zu übertragen.
 
 ## Aktuelle öffentliche Aktivitäten
 
-Das Organisationsprofil indexiert alle 3 öffentlichen biotec-line Repositories (verifiziert über GitHub-Metadaten am **30. Juli 2026**).
+Das Organisationsprofil indexiert alle 3 öffentlichen biotec-line Repositories (verifiziert über GitHub-Metadaten am **02. August 2026**).
 
 | Repository | Letzter öffentlicher Push | Hauptfokus |
 |---|---:|---|
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-07-28 | Local-First VCF/gVCF-Annotation, Filterung, Validierung, Abhängigkeits-Audit und wissenschaftliche Export-Workflows |
-| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-07-26 | DTC-DNA-Rohdaten zu VCF 4.2 Konvertierung mit PySide6 GUI, Headless CLI, GRCh37/GRCh38 Erkennung, dbSNP und FASTA Referenz-Lookup |
-| [.github](https://github.com/biotec-line/.github) | 2026-07-30 | Öffentliche Startseite der Organisation, Community-Standards und maschinenlesbarer `llms.txt` Kontext |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-07-31 | Local-First VCF/gVCF-Annotation, Filterung, Validierung, Abhängigkeits-Audit und wissenschaftliche Export-Workflows |
+| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-07-30 | DTC-DNA-Rohdaten zu VCF 4.2 Konvertierung mit PySide6 GUI, Headless CLI, GRCh37/GRCh38 Erkennung, dbSNP und FASTA Referenz-Lookup |
+| [.github](https://github.com/biotec-line/.github) | 2026-08-02 | Öffentliche Startseite der Organisation, Community-Standards und maschinenlesbarer `llms.txt` Kontext |
 
 ## Workflow-Übersicht
 
@@ -39,7 +41,7 @@ Das biotec-line Ökosystem bietet eine Offline-First Pipeline zur Verarbeitung u
 
 ```mermaid
 graph TD
-    Input[DTC DNA Rohdaten<br/><i>23andMe, MyHeritage, FTDNA etc.</i>] --> G2V(genotype-to-vcf)
+    Input[DTC DNA Rohdaten<br/><i>23andMe, MyHeritage, FTDNA, TellMeGen</i>] --> G2V(genotype-to-vcf)
     
     G2V -->|dbSNP / FASTA Ref Lookup| BuildDetect{Erkenne Build}
     BuildDetect -->|GRCh37 / GRCh38| OutVCF[Standard VCF 4.2 Datei]
@@ -59,17 +61,17 @@ graph TD
 
 | Anwendungsfall | Empfohlenes Tool | Beschreibung |
 |---|---|---|
-| Konvertierung von 23andMe, MyHeritage, FTDNA oder ähnlichen DNA-Rohdaten zu VCF 4.2 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | PySide6 Desktop-Konverter und Headless CLI mit automatischem GRCh37/GRCh38 Build-Match, dbSNP/FASTA Referenz-Lookup, SHA256 Release-Verifizierung und datenschutzfreundlicher VCF-Ausgabe. Läuft unter Windows, macOS und Linux. |
+| Konvertierung von 23andMe, MyHeritage, FTDNA, TellMeGen oder ähnlichen DNA-Rohdaten zu VCF 4.2 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | PySide6 Desktop-Konverter und Headless CLI mit automatischem GRCh37/GRCh38 Build-Match, dbSNP/FASTA Referenz-Lookup, SHA256 Release-Verifizierung und datenschutzfreundlicher VCF-Ausgabe. Läuft unter Windows, macOS und Linux. |
 | Annotieren, Filtern, Prüfen und Exportieren von VCF/gVCF- oder 23andMe-Varianten | [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-First Varianten-Analyse-GUI mit gnomAD, MyVariant.info, VEP, ALFA, TOPMed, ClinVar-orientierten Feldern, FASTA-Validierung, CSV/Excel/PDF/VCF Export und plattformübergreifenden Smoke-Tests. |
 
 ## Verzeichnis Öffentlicher Repositories
 
-Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation biotec-line auf (Stand: **30. Juli 2026**). Private, interne oder noch unveröffentlichte Entwicklungsstände werden bewusst ausgeschlossen.
+Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation biotec-line auf (Stand: **02. August 2026**). Private, interne oder noch unveröffentlichte Entwicklungsstände werden bewusst ausgeschlossen.
 
 | Repository | Rolle | Status |
 |---|---|---|
 | [.github](https://github.com/biotec-line/.github) | Organisationsprofil, shared Issue-Templates, Beitragsrichtlinien, Sicherheitsrichtlinien und maschinenlesbarer `llms.txt` Kontext | Aktiv |
-| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | DTC-DNA-Rohdaten zu VCF 4.2 Konverter für 23andMe, MyHeritage, FTDNA, GRCh37/GRCh38, dbSNP, FASTA, SHA256 Release-Prüfsummen und CLI-Pipelines | Aktiv |
+| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | DTC-DNA-Rohdaten zu VCF 4.2 Konverter für 23andMe, MyHeritage, FTDNA, TellMeGen, GRCh37/GRCh38, dbSNP, FASTA, SHA256 Release-Prüfsummen und CLI-Pipelines | Aktiv |
 | [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-First VCF/gVCF-Annotation, Filterung, Validierung, Abhängigkeits-Audit, gnomAD/ClinVar-orientierte Felder, FASTA-Review und Export-Desktop-Tool | Aktiv |
 
 ## Projekt-Familien
@@ -109,7 +111,7 @@ Für Crawler und LLM-Tools siehe [`llms.txt`](https://github.com/biotec-line/.gi
 
 ## Suchbegriffe & Auffindbarkeit
 
-Nützliche Suchbegriffe für GitHub und Websuchmaschinen: `biotec-line Bioinformatik GitHub`, `biotec-line VCF Tools`, `DTC DNA zu VCF Konverter`, `23andMe MyHeritage FTDNA VCF Konvertierung`, `Local-First VCF Annotation Desktop App`, `genotype-to-vcf CLI Headless Pipeline`, `gVCF Filterung GUI`, `gnomAD ClinVar FASTA Varianten Review`, `Research-Use-Only Gen-Varianten Software`, `Offline Bioinformatik Desktop Software`.
+Nützliche Suchbegriffe für GitHub und Websuchmaschinen: `biotec-line Bioinformatik GitHub`, `biotec-line VCF Tools`, `DTC DNA zu VCF Konverter`, `23andMe MyHeritage FTDNA TellMeGen VCF Konvertierung`, `Local-First VCF Annotation Desktop App`, `genotype-to-vcf CLI Headless Pipeline`, `gVCF Filterung GUI`, `gnomAD ClinVar FASTA Varianten Review`, `Research-Use-Only Gen-Varianten Software`, `Offline Bioinformatik Desktop Software`.
 
 ## Ökosystem & Verwandte Organisationen
 

@@ -1,4 +1,4 @@
-## Last-checked: 2026-07-30
+## Last-checked: 2026-08-02
 
 # biotec-line
 
@@ -7,7 +7,7 @@ biotec-line is the bioinformatics branch of the Lukas Geiger / open-bricks ecosy
 Canonical organization: https://github.com/biotec-line
 Organization profile repository: https://github.com/biotec-line/.github
 Related ecosystem entry points: https://github.com/open-bricks, https://github.com/research-line, https://github.com/ellmos-ai, https://github.com/lukisch
-Public repository count: 3. Current public repositories: .github, VFDistiller, genotype-to-vcf. Private, internal, or unreleased work is intentionally excluded. GitHub metadata checked on 2026-07-30: VFDistiller last public push 2026-07-28; genotype-to-vcf last public push 2026-07-26; .github last public push 2026-07-30.
+Public repository count: 3. Current public repositories: .github, VFDistiller, genotype-to-vcf. Private, internal, or unreleased work is intentionally excluded. GitHub metadata checked on 2026-08-02: VFDistiller last public push 2026-07-31; genotype-to-vcf last public push 2026-07-30; .github last public push 2026-08-02.
 
 ## Audience
 
@@ -18,7 +18,7 @@ Researchers, bioinformaticians, and technical users who need local-first tools f
 - .github: https://github.com/biotec-line/.github
   Organization profile, shared community health files, issue templates, contribution guidelines, security policy, and machine-readable context for the public biotec-line GitHub start page.
 - genotype-to-vcf: https://github.com/biotec-line/genotype-to-vcf
-  Desktop and CLI app for converting DTC DNA raw data from providers such as 23andMe, MyHeritage, Family Tree DNA, Genes for Good, Mapmygenome, and tellmeGen into VCF 4.2. Uses PySide6, automatic GRCh37/GRCh38 build detection, sex-aware ploidy handling, dbSNP lookup, optional FASTA references, local cache, SHA256 release verification, and privacy-focused local file handling. Supports macOS and Linux via headless CLI mode.
+  Desktop and CLI app for converting DTC DNA raw data from providers such as 23andMe, MyHeritage, Family Tree DNA, TellMeGen, Genes for Good, Mapmygenome into VCF 4.2. Uses PySide6, automatic GRCh37/GRCh38 build detection, sex-aware ploidy handling, dbSNP lookup, optional FASTA references, local cache, SHA256 release verification, and privacy-focused local file handling. Supports macOS and Linux via headless CLI mode.
 - VFDistiller: https://github.com/biotec-line/VFDistiller
   Local-first VCF/gVCF and genetic variant annotation desktop application for research use only. Supports VCF, gVCF, 23andMe raw text, FASTA validation, gnomAD, MyVariant.info, Ensembl VEP, ALFA, TOPMed, ClinVar-oriented annotation fields, filtering, CSV/Excel/PDF/annotated-VCF export, dependency auditing, and cross-platform smoke tests (Windows, macOS, Linux).
 
