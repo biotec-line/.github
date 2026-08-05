@@ -1,12 +1,12 @@
 # biotec-line .github
 
-<!-- public-index-last-checked: 2026-08-02 -->
+<!-- public-index-last-checked: 2026-08-06 -->
 
 Organization profile and community health files for [biotec-line](https://github.com/biotec-line).
 
 This repository controls the public organization overview shown on GitHub and the shared contribution, security, issue, and pull request templates used across the biotec-line bioinformatics projects.
 
-The public profile README is also the maintained repository directory for the organization: it lists all public biotec-line repositories and deliberately excludes private, internal, or unreleased work. The current public index was verified against GitHub on **2026-08-02**.
+The public profile README is also the maintained repository directory for the organization: it lists all public biotec-line repositories and deliberately excludes private, internal, or unreleased work. The current public index was verified against GitHub on **2026-08-06**.
 
 ## Public Repository Directory
 
@@ -20,9 +20,9 @@ The public profile README is also the maintained repository directory for the or
 
 | Repository | Latest public push seen in GitHub metadata | Notes |
 |---|---:|---|
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-07-31 | Active local-first VCF/gVCF annotation tool; public profile text reflects research-use-only desktop workflows. |
-| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-07-30 | Active DTC DNA to VCF converter work; public profile text reflects the current GUI and headless CLI positioning. |
-| [.github](https://github.com/biotec-line/.github) | 2026-08-02 | This organization start page and crawler context. |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-08-05 | Active local-first VCF/gVCF annotation tool; public profile text reflects research-use-only desktop workflows. |
+| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-08-05 | Active DTC DNA to VCF converter work; public profile text reflects the current GUI and headless CLI positioning. |
+| [.github](https://github.com/biotec-line/.github) | 2026-08-06 | This organization start page and crawler context. |
 
 ## Files
 

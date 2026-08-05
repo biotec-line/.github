@@ -2,6 +2,14 @@
 
 All notable changes to the `biotec-line` organization profile and shared community files will be documented in this file.
 
+## [1.0.3] - 2026-08-06
+
+### Maintenance & Index Sync
+- **Repository Index Refresh:** Re-verified public repository catalog for `biotec-line` via GitHub API on 2026-08-06. All 3 public repositories (`.github`, `genotype-to-vcf`, `VFDistiller`) are 100% accounted for; no private repositories exist in this organization.
+- **Push Metadata Updated:** Updated latest public push timestamps: `VFDistiller` (`2026-08-05`), `genotype-to-vcf` (`2026-08-05`), and `.github` (`2026-08-06`).
+- **Tool Showcase:** Added a banner-link showcase (`## Tool Showcase` / `## Tool-Vitrine`) for `genotype-to-vcf` and `VFDistiller` to `profile/README.md` and `profile/README_de.md`, using each repository's `assets/banner.svg`.
+- **Last-Checked Timestamps:** Synchronized `<!-- last-checked: 2026-08-06 -->` across `profile/README.md`, `profile/README_de.md`, root `README.md`, and `llms.txt`.
+
 ## [1.0.2] - 2026-08-02
 
 ### Maintenance, SEO & Profile Enhancement
