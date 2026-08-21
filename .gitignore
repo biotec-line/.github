@@ -1,0 +1,11 @@
+# Local-first host backup files
+*-WORKSTATION-LG.*
+*-ASUS-GEI*
+
+# Python & System
+__pycache__/
+*.pyc
+*.tmp
+.pytest_cache/
+.DS_Store
+Thumbs.db

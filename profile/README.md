@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-08-06 -->
+<!-- last-checked: 2026-08-21 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line logo" width="925">
 </p>
@@ -27,13 +27,13 @@ biotec-line builds practical, privacy-centric Python desktop software for workin
 
 ## Current Public Activity
 
-The organization profile indexes all 3 public biotec-line repositories, verified against GitHub metadata on **2026-08-06**.
+The organization profile indexes all 3 public biotec-line repositories, verified against GitHub metadata on **2026-08-21**.
 
 | Repository | Latest public push | Public focus |
 |---|---:|---|
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-08-05 | Local-first VCF/gVCF annotation, filtering, validation, dependency audit, gnomAD/ClinVar-oriented fields, and research export desktop workflows |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-08-14 | Local-first VCF/gVCF annotation, filtering, validation, dependency audit, gnomAD/ClinVar-oriented fields, and research export desktop workflows |
 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-08-05 | DTC DNA raw-data to VCF 4.2 conversion with PySide6 GUI, headless CLI, GRCh37/GRCh38 detection, dbSNP, and FASTA reference lookup |
-| [.github](https://github.com/biotec-line/.github) | 2026-08-06 | Public organization start page, shared community-health defaults, and machine-readable `llms.txt` discovery context |
+| [.github](https://github.com/biotec-line/.github) | 2026-08-21 | Public organization start page, shared community-health defaults, and machine-readable `llms.txt` discovery context |
 
 ## Workflow Overview
 
@@ -66,7 +66,7 @@ graph TD
 
 ## Public Repository Directory
 
-This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on **2026-08-06**. Private, internal, or unreleased research work is intentionally not listed here.
+This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on **2026-08-21**. Private, internal, or unreleased research work is intentionally not listed here.
 
 | Repository | Role | Public status |
 |---|---|---|
@@ -115,7 +115,7 @@ For crawlers and LLM tools, see [`llms.txt`](https://github.com/biotec-line/.git
 
 ## Search And Discovery
 
-Useful GitHub and web search phrases include `biotec-line VCF tools`, `DTC DNA to VCF converter`, `23andMe MyHeritage FTDNA TellMeGen VCF conversion`, `local-first VCF annotation desktop app`, `genotype-to-vcf CLI headless pipeline`, `gVCF filtering GUI`, `gnomAD ClinVar FASTA variant review`, `research-use-only genetic variant annotation software`, `offline bioinformatics desktop tools`, and `privacy-first genomic data conversion`.
+Useful GitHub and web search phrases include `biotec-line VCF tools`, `DTC DNA to VCF converter`, `23andMe MyHeritage FTDNA TellMeGen VCF conversion`, `local-first VCF annotation desktop app`, `genotype-to-vcf CLI headless pipeline`, `gVCF filtering GUI`, `gnomAD ClinVar FASTA variant review`, `research-use-only genetic variant annotation software`, `offline bioinformatics desktop tools`, `privacy-first genomic data conversion`, `GRCh37 GRCh38 auto-detection Python`, and `bioinformatics local-first open-source`.
 
 ## Ecosystem
 
@@ -129,4 +129,6 @@ biotec-line is the bioinformatics branch of the broader research and AI tool eco
 | **doc-bricks** | Document management and processing tools | [doc-bricks](https://github.com/doc-bricks) |
 | **dev-bricks** | Developer tools, bridges, and utilities | [dev-bricks](https://github.com/dev-bricks) |
 | **file-bricks** | File management and desktop applications | [file-bricks](https://github.com/file-bricks) |
+| **entertain-and-more** | Interactive games and AI tabletop tools | [entertain-and-more](https://github.com/entertain-and-more) |
+| **assistassets-ai** | Local-first personal assistants and financial tools | [assistassets-ai](https://github.com/assistassets-ai) |
 | **lukisch** | Personal developer profile | [lukisch](https://github.com/lukisch) |
