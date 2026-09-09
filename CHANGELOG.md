@@ -2,6 +2,18 @@
 
 All notable changes to the `biotec-line` organization profile and shared community files will be documented in this file.
 
+## [1.0.5] - 2026-09-09
+
+### Maintenance, Discoverability & Index Sync
+- **Repository Index Refresh:** Re-verified public repository catalog for `biotec-line` via GitHub API on 2026-09-09. All 3 public repositories (`.github`, `genotype-to-vcf`, `VFDistiller`) are 100% accounted for and mapped; no unlisted or private repos exist in this organization.
+- **Push Metadata & Activity Updated:** Updated latest public push timestamp for `.github` (`2026-09-09`), confirming `VFDistiller` (`2026-08-14`) and `genotype-to-vcf` (`2026-08-05`).
+- **Ecosystem Parity & Cross-Linking:** Synchronized sister organization tables across English/German profile READMEs and `llms.txt` to include `um-bruch` alongside `open-bricks`, `research-line`, `ellmos-ai`, `doc-bricks`, `dev-bricks`, `file-bricks`, `entertain-and-more`, `assistassets-ai`, and `lukisch`.
+- **Mermaid Syntax Hardening:** Quoted node and edge labels containing slashes, brackets, and parentheses strictly according to `HOOK-BANNER-ASSET-01` to ensure robust GitHub rendering.
+- **Badges & Visual Identity:** Added cross-platform support badge (`Platform: Windows | macOS | Linux`) to English and German profile headers.
+- **Search & SEO Optimization:** Added high-relevance search phrases (`DTC genomics local-first`, `23andMe VCF converter python`, `gnomAD offline variant filtering`, `local FASTA reference matching`) across READMEs and `llms.txt`.
+- **Last-Checked Timestamps:** Synchronized `<!-- last-checked: 2026-09-09 -->` across `profile/README.md`, `profile/README_de.md`, root `README.md`, and `llms.txt`.
+- **Automated Profile Parity Testing:** Enhanced `tests/test_profile_parity.py` with distinct root/profile file keys, updated 2026-09-09 date assertions, and verified 10-org ecosystem cross-linking.
+
 ## [1.0.4] - 2026-08-21
 
 ### Maintenance, Discoverability & Index Sync
