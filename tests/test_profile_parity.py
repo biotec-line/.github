@@ -216,7 +216,7 @@ def test_push_timestamp_parity(file_contents):
 
 
 def test_ecosystem_cross_linking(file_contents):
-    """Verify that all 9 sister organizations are properly linked."""
+    """Verify that all sister organizations are properly linked."""
     ecosystem_orgs = [
         "open-bricks",
         "research-line",
@@ -226,6 +226,7 @@ def test_ecosystem_cross_linking(file_contents):
         "file-bricks",
         "entertain-and-more",
         "assistassets-ai",
+        "um-bruch",
         "lukisch",
     ]
     for org in ecosystem_orgs:

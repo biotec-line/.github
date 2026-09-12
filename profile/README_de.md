@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-08-21 -->
+<!-- last-checked: 2026-09-09 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line Logo" width="925">
 </p>
@@ -11,6 +11,7 @@
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Bereich-Bioinformatik-purple.svg?style=flat-square" alt="Bioinformatik"></a>
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Standards-VCF_4.2_%7C_gVCF-teal.svg?style=flat-square" alt="VCF 4.2 | gVCF"></a>
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Builds-GRCh37_%7C_GRCh38-blueviolet.svg?style=flat-square" alt="GRCh37 | GRCh38"></a>
+  <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Plattform-Windows_%7C_macOS_%7C_Linux-informational.svg?style=flat-square" alt="Plattform"></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ökosystem-open--bricks-orange.svg?style=flat-square" alt="open-bricks"></a>
   <a href="README.md"><img src="https://img.shields.io/badge/Language-English-lightgrey.svg?style=flat-square" alt="English Version"></a>
 </p>
@@ -27,13 +28,13 @@ biotec-line entwickelt praxiserprobte Python-Desktop-Software zur sicheren Verar
 
 ## Aktuelle öffentliche Aktivitäten
 
-Das Organisationsprofil indexiert alle 3 öffentlichen biotec-line Repositories (verifiziert über GitHub-Metadaten am **21. August 2026**).
+Das Organisationsprofil indexiert alle 3 öffentlichen biotec-line Repositories (verifiziert über GitHub-Metadaten am **9. September 2026**).
 
 | Repository | Letzter öffentlicher Push | Hauptfokus |
 |---|---:|---|
 | [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-08-14 | Local-First VCF/gVCF-Annotation, Filterung, Validierung, Abhängigkeits-Audit und wissenschaftliche Export-Workflows |
 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-08-05 | DTC-DNA-Rohdaten zu VCF 4.2 Konvertierung mit PySide6 GUI, Headless CLI, GRCh37/GRCh38 Erkennung, dbSNP und FASTA Referenz-Lookup |
-| [.github](https://github.com/biotec-line/.github) | 2026-08-21 | Öffentliche Startseite der Organisation, Community-Standards und maschinenlesbarer `llms.txt` Kontext |
+| [.github](https://github.com/biotec-line/.github) | 2026-09-09 | Öffentliche Startseite der Organisation, Community-Standards und maschinenlesbarer `llms.txt` Kontext |
 
 ## Workflow-Übersicht
 
@@ -41,14 +42,14 @@ Das biotec-line Ökosystem bietet eine Offline-First Pipeline zur Verarbeitung u
 
 ```mermaid
 graph TD
-    Input[DTC DNA Rohdaten<br/><i>23andMe, MyHeritage, FTDNA, TellMeGen</i>] --> G2V(genotype-to-vcf)
+    Input["DTC DNA Rohdaten<br/><i>23andMe, MyHeritage, FTDNA, TellMeGen</i>"] --> G2V["genotype-to-vcf"]
     
-    G2V -->|dbSNP / FASTA Ref Lookup| BuildDetect{Erkenne Build}
-    BuildDetect -->|GRCh37 / GRCh38| OutVCF[Standard VCF 4.2 Datei]
+    G2V -->|"dbSNP / FASTA Ref Lookup"| BuildDetect{"Erkenne Build"}
+    BuildDetect -->|"GRCh37 / GRCh38"| OutVCF["Standard VCF 4.2 Datei"]
     
-    OutVCF --> VFD(VFDistiller)
-    VFD -->|Lokaler Cache / DBs| Annotate{Annotation & Filterung}
-    Annotate -->|gnomAD / ClinVar / VEP| Reports[Forschungs-Berichte<br/><i>Excel, CSV, PDF, VCF</i>]
+    OutVCF --> VFD["VFDistiller"]
+    VFD -->|"Lokaler Cache / DBs"| Annotate{"Annotation & Filterung"}
+    Annotate -->|"gnomAD / ClinVar / VEP"| Reports["Forschungs-Berichte<br/><i>Excel, CSV, PDF, VCF</i>"]
     
     classDef default fill:#1e1e2e,stroke:#45475a,stroke-width:2px,color:#cdd6f4;
     classDef tool fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#eff6ff;
@@ -66,7 +67,7 @@ graph TD
 
 ## Verzeichnis Öffentlicher Repositories
 
-Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation biotec-line auf (Stand: **21. August 2026**). Private, interne oder noch unveröffentlichte Entwicklungsstände werden bewusst ausgeschlossen.
+Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation biotec-line auf (Stand: **9. September 2026**). Private, interne oder noch unveröffentlichte Entwicklungsstände werden bewusst ausgeschlossen.
 
 | Repository | Rolle | Status |
 |---|---|---|
@@ -115,7 +116,7 @@ Für Crawler und LLM-Tools siehe [`llms.txt`](https://github.com/biotec-line/.gi
 
 ## Suchbegriffe & Auffindbarkeit
 
-Nützliche Suchbegriffe für GitHub und Websuchmaschinen: `biotec-line Bioinformatik GitHub`, `biotec-line VCF Tools`, `DTC DNA zu VCF Konverter`, `23andMe MyHeritage FTDNA TellMeGen VCF Konvertierung`, `Local-First VCF Annotation Desktop App`, `genotype-to-vcf CLI Headless Pipeline`, `gVCF Filterung GUI`, `gnomAD ClinVar FASTA Varianten Review`, `Research-Use-Only Gen-Varianten Software`, `Offline Bioinformatik Desktop Software`, `GRCh37 GRCh38 Build Erkennung Python`, `Bioinformatik Datenschutz Open Source`.
+Nützliche Suchbegriffe für GitHub und Websuchmaschinen: `biotec-line Bioinformatik GitHub`, `biotec-line VCF Tools`, `DTC DNA zu VCF Konverter`, `23andMe MyHeritage FTDNA TellMeGen VCF Konvertierung`, `Local-First VCF Annotation Desktop App`, `genotype-to-vcf CLI Headless Pipeline`, `gVCF Filterung GUI`, `gnomAD ClinVar FASTA Varianten Review`, `Research-Use-Only Gen-Varianten Software`, `Offline Bioinformatik Desktop Software`, `GRCh37 GRCh38 Build Erkennung Python`, `Bioinformatik Datenschutz Open Source`, `DTC DNA zu VCF Python`, `gnomAD Offline Variantenfilter`, `Lokaler FASTA Referenzabgleich`, und `Offline Humangenetik Software`.
 
 ## Ökosystem & Verwandte Organisationen
 
@@ -129,4 +130,5 @@ Nützliche Suchbegriffe für GitHub und Websuchmaschinen: `biotec-line Bioinform
 | **file-bricks** | Dateiverwaltungs-Desktop-Apps | [file-bricks](https://github.com/file-bricks) |
 | **entertain-and-more** | Interaktive Games und KI-Tabletop-Tools | [entertain-and-more](https://github.com/entertain-and-more) |
 | **assistassets-ai** | Lokale persönliche Assistenten und Finanz-Tools | [assistassets-ai](https://github.com/assistassets-ai) |
+| **um-bruch** | Gemeinwohlorientierte Software, Gesundheitspolitik und Civic-Tech | [um-bruch](https://github.com/um-bruch) |
 | **lukisch** | Persönliches Entwickler-Profil | [lukisch](https://github.com/lukisch) |
