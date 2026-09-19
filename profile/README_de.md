@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-09-09 -->
+<!-- last-checked: 2026-09-19 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line Logo" width="925">
 </p>
@@ -18,6 +18,8 @@
 
 # biotec-line
 
+[🇩🇪 Deutsch](README_de.md) | [🇬🇧 English Version](README.md)
+
 **Local-First Bioinformatik-Werkzeuge für DTC-DNA-Konvertierung, VCF/gVCF-Verarbeitung, Gen-Varianten-Annotation und wissenschaftliche Desktop- sowie CLI-Workflows.**
 
 > [!NOTE]
@@ -28,13 +30,13 @@ biotec-line entwickelt praxiserprobte Python-Desktop-Software zur sicheren Verar
 
 ## Aktuelle öffentliche Aktivitäten
 
-Das Organisationsprofil indexiert alle 3 öffentlichen biotec-line Repositories (verifiziert über GitHub-Metadaten am **9. September 2026**).
+Das Organisationsprofil indexiert alle 3 öffentlichen biotec-line Repositories (verifiziert über GitHub-Metadaten am **19. September 2026**).
 
 | Repository | Letzter öffentlicher Push | Hauptfokus |
 |---|---:|---|
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-08-14 | Local-First VCF/gVCF-Annotation, Filterung, Validierung, Abhängigkeits-Audit und wissenschaftliche Export-Workflows |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-09-18 | Local-First VCF/gVCF-Annotation Desktop-App mit Barrierefreiheit/Tastaturnavigation, Mehrebenen-App-Icons, gnomAD/ClinVar-Feldern, FASTA-Validierung und wissenschaftlichen Exporten |
 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-08-05 | DTC-DNA-Rohdaten zu VCF 4.2 Konvertierung mit PySide6 GUI, Headless CLI, GRCh37/GRCh38 Erkennung, dbSNP und FASTA Referenz-Lookup |
-| [.github](https://github.com/biotec-line/.github) | 2026-09-09 | Öffentliche Startseite der Organisation, Community-Standards und maschinenlesbarer `llms.txt` Kontext |
+| [.github](https://github.com/biotec-line/.github) | 2026-09-19 | Öffentliche Startseite der Organisation, Community-Standards und maschinenlesbarer `llms.txt` Kontext |
 
 ## Workflow-Übersicht
 
@@ -67,13 +69,13 @@ graph TD
 
 ## Verzeichnis Öffentlicher Repositories
 
-Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation biotec-line auf (Stand: **9. September 2026**). Private, interne oder noch unveröffentlichte Entwicklungsstände werden bewusst ausgeschlossen.
+Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation biotec-line auf (Stand: **19. September 2026**). Private, interne oder noch unveröffentlichte Entwicklungsstände werden bewusst ausgeschlossen.
 
 | Repository | Rolle | Status |
 |---|---|---|
 | [.github](https://github.com/biotec-line/.github) | Organisationsprofil, shared Issue-Templates, Beitragsrichtlinien, Sicherheitsrichtlinien und maschinenlesbarer `llms.txt` Kontext | Aktiv |
 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | DTC-DNA-Rohdaten zu VCF 4.2 Konverter für 23andMe, MyHeritage, FTDNA, TellMeGen, GRCh37/GRCh38, dbSNP, FASTA, SHA256 Release-Prüfsummen und CLI-Pipelines | Aktiv |
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-First VCF/gVCF-Annotation, Filterung, Validierung, Abhängigkeits-Audit, gnomAD/ClinVar-orientierte Felder, FASTA-Review und Export-Desktop-Tool | Aktiv |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-First VCF/gVCF-Annotation Desktop-App mit Tastatur-Shortcuts, Mehrebenen-Icon-Suite, gnomAD/ClinVar/VEP-Feldern, FASTA-Validierung und Export-Workflows | Aktiv |
 
 ## Tool-Vitrine
 
@@ -91,7 +93,7 @@ Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation bio
 
 | Projekt | Beschreibung |
 |---|---|
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-First Desktop-App für VCF, gVCF, 23andMe-Rohdaten und FASTA-Workflows, inklusive Annotation, Filterung, Allelfrequenz-Abfrage, Referenz-Validierung, Forschungs-Exporten und plattformübergreifenden Source-Smoke-Tests (Windows, macOS, Linux). |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-First Desktop-App für VCF, gVCF, 23andMe-Rohdaten und FASTA-Workflows, inklusive Tastaturnavigation, Barrierefreiheit, Allelfrequenz-Abfrage, Referenz-Validierung, Forschungs-Exporten und plattformübergreifenden Source-Smoke-Tests (Windows, macOS, Linux). |
 
 ## Forschungsvorbehalt (Research Use Only)
 

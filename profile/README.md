@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-09-09 -->
+<!-- last-checked: 2026-09-19 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line logo" width="925">
 </p>
@@ -18,6 +18,8 @@
 
 # biotec-line
 
+[🇬🇧 English](README.md) | [🇩🇪 Deutsche Version](README_de.md)
+
 **Local-first bioinformatics software for DTC DNA raw data conversion, standard VCF/gVCF variant processing, genomic variant annotation, and research-grade desktop and CLI pipelines.**
 
 > [!NOTE]
@@ -28,13 +30,13 @@ biotec-line builds practical, privacy-centric Python desktop software for workin
 
 ## Current Public Activity
 
-The organization profile indexes all 3 public biotec-line repositories, verified against GitHub metadata on **2026-09-09**.
+The organization profile indexes all 3 public biotec-line repositories, verified against GitHub metadata on **2026-09-19**.
 
 | Repository | Latest public push | Public focus |
 |---|---:|---|
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-08-14 | Local-first VCF/gVCF annotation, filtering, validation, dependency audit, gnomAD/ClinVar-oriented fields, and research export desktop workflows |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-09-18 | Local-first VCF/gVCF annotation desktop app; accessibility & keyboard navigation, multi-layer app icons, gnomAD/ClinVar-oriented fields, FASTA validation, and research exports |
 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-08-05 | DTC DNA raw-data to VCF 4.2 conversion with PySide6 GUI, headless CLI, GRCh37/GRCh38 detection, dbSNP, and FASTA reference lookup |
-| [.github](https://github.com/biotec-line/.github) | 2026-09-09 | Public organization start page, shared community-health defaults, and machine-readable `llms.txt` discovery context |
+| [.github](https://github.com/biotec-line/.github) | 2026-09-19 | Public organization start page, shared community-health defaults, and machine-readable `llms.txt` discovery context |
 
 ## Workflow Overview
 
@@ -67,13 +69,13 @@ graph TD
 
 ## Public Repository Directory
 
-This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on **2026-09-09**. Private, internal, or unreleased research work is intentionally not listed here.
+This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on **2026-09-19**. Private, internal, or unreleased research work is intentionally not listed here.
 
 | Repository | Role | Public status |
 |---|---|---|
 | [.github](https://github.com/biotec-line/.github) | Organization profile, shared issue templates, contribution policy, security policy, and machine-readable `llms.txt` context | Active |
 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | DTC DNA raw-data to VCF 4.2 converter for 23andMe, MyHeritage, FTDNA, TellMeGen, GRCh37/GRCh38, dbSNP, FASTA, SHA256 release checksums, and CLI pipeline workflows | Active |
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-first VCF/gVCF annotation, filtering, validation, dependency audit, gnomAD/ClinVar-oriented fields, FASTA-oriented review, and export desktop tool for research-use-only variant workflows | Active |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-first VCF/gVCF annotation desktop app with a11y keyboard shortcuts, multi-resolution branding, gnomAD/ClinVar/VEP fields, FASTA validation, and export workflows | Active |
 
 ## Tool Showcase
 
@@ -91,7 +93,7 @@ This directory lists all 3 public repositories that are part of the biotec-line 
 
 | Project | Description |
 |---|---|
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-first desktop app for VCF, gVCF, 23andMe raw text, and FASTA workflows, including annotation, filtering, allele-frequency lookup, reference validation, research exports, and cross-platform source smoke tests (Windows, macOS, Linux). |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | Local-first desktop app for VCF, gVCF, 23andMe raw text, and FASTA workflows, including keyboard accessibility, shortcut navigation, allele-frequency lookup, reference validation, research exports, and cross-platform source smoke tests (Windows, macOS, Linux). |
 
 ## Research Use Boundary
 

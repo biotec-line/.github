@@ -2,6 +2,16 @@
 
 All notable changes to the `biotec-line` organization profile and shared community files will be documented in this file.
 
+## [1.0.6] - 2026-09-19
+
+### Maintenance, Discoverability & Index Sync
+- **Repository Index Refresh:** Re-verified public repository catalog for `biotec-line` via GitHub API on 2026-09-19. All 3 public repositories (`.github`, `genotype-to-vcf`, `VFDistiller`) are 100% accounted for and mapped; no unlisted or private repos exist in this organization.
+- **Push Metadata & Activity Updated:** Updated latest public push timestamp for `.github` (`2026-09-19`), confirming `VFDistiller` (`2026-09-18`) and `genotype-to-vcf` (`2026-08-05`).
+- **VFDistiller Feature Highlights:** Documented latest `VFDistiller` advances including keyboard accessibility (a11y shortcuts dialog `?`/`F1`, table `Enter` activation), multi-resolution branding suite (1024x1024 master, 7-layer ICOs, PWA suite, Store tiles), runtime icon bindings, and 18-point bilingual navigation parity.
+- **Bilingual Language Switcher:** Added prominent language bars (`[🇬🇧 English](README.md) | [🇩🇪 Deutsche Version](README_de.md)`) to both English and German profile headers.
+- **Last-Checked Timestamps:** Synchronized `<!-- last-checked: 2026-09-19 -->` across `profile/README.md`, `profile/README_de.md`, root `README.md`, and `llms.txt`.
+- **Automated Profile Parity Testing:** Validated full test suite in `tests/test_profile_parity.py` with 24 passing contract tests.
+
 ## [1.0.5] - 2026-09-09
 
 ### Maintenance, Discoverability & Index Sync
