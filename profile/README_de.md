@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-09-19 -->
+<!-- last-checked: 2026-09-23 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line Logo" width="925">
 </p>
@@ -13,6 +13,8 @@
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Builds-GRCh37_%7C_GRCh38-blueviolet.svg?style=flat-square" alt="GRCh37 | GRCh38"></a>
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Plattform-Windows_%7C_macOS_%7C_Linux-informational.svg?style=flat-square" alt="Plattform"></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ökosystem-open--bricks-orange.svg?style=flat-square" alt="open-bricks"></a>
+  <a href="https://github.com/biotec-line/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Sicherheits_SLA-48h_Reaktion-critical.svg?style=flat-square" alt="Sicherheits-SLA"></a>
+  <a href="https://github.com/biotec-line/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Geprüft-2026--09--23-blue.svg?style=flat-square" alt="Geprüft 2026-09-23"></a>
   <a href="README.md"><img src="https://img.shields.io/badge/Language-English-lightgrey.svg?style=flat-square" alt="English Version"></a>
 </p>
 
@@ -30,13 +32,13 @@ biotec-line entwickelt praxiserprobte Python-Desktop-Software zur sicheren Verar
 
 ## Aktuelle öffentliche Aktivitäten
 
-Das Organisationsprofil indexiert alle 3 öffentlichen biotec-line Repositories (verifiziert über GitHub-Metadaten am **19. September 2026**).
+Das Organisationsprofil indexiert alle 3 öffentlichen biotec-line Repositories (verifiziert über GitHub-Metadaten am **23. September 2026**). Die Organisation umfasst insgesamt genau 3 Repositories, das Verzeichnis ist damit vollständig — es existiert kein nicht gelistetes öffentliches Repository.
 
 | Repository | Letzter öffentlicher Push | Hauptfokus |
 |---|---:|---|
-| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-09-18 | Local-First VCF/gVCF-Annotation Desktop-App mit Barrierefreiheit/Tastaturnavigation, Mehrebenen-App-Icons, gnomAD/ClinVar-Feldern, FASTA-Validierung und wissenschaftlichen Exporten |
-| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-08-05 | DTC-DNA-Rohdaten zu VCF 4.2 Konvertierung mit PySide6 GUI, Headless CLI, GRCh37/GRCh38 Erkennung, dbSNP und FASTA Referenz-Lookup |
-| [.github](https://github.com/biotec-line/.github) | 2026-09-19 | Öffentliche Startseite der Organisation, Community-Standards und maschinenlesbarer `llms.txt` Kontext |
+| [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-09-22 | DTC-DNA-Rohdaten zu VCF 4.2 Konvertierung mit PySide6 GUI, Headless CLI, GRCh37/GRCh38 Erkennung, dbSNP und FASTA Referenz-Lookup |
+| [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-09-21 | Local-First VCF/gVCF-Annotation Desktop-App mit Barrierefreiheit/Tastaturnavigation, Mehrebenen-App-Icons, gnomAD/ClinVar-Feldern, FASTA-Validierung und wissenschaftlichen Exporten |
+| [.github](https://github.com/biotec-line/.github) | 2026-09-20 | Öffentliche Startseite der Organisation, Community-Standards und maschinenlesbarer `llms.txt` Kontext |
 
 ## Workflow-Übersicht
 
@@ -69,7 +71,7 @@ graph TD
 
 ## Verzeichnis Öffentlicher Repositories
 
-Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation biotec-line auf (Stand: **19. September 2026**). Private, interne oder noch unveröffentlichte Entwicklungsstände werden bewusst ausgeschlossen.
+Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation biotec-line auf (Stand: **23. September 2026**). Private, interne oder noch unveröffentlichte Entwicklungsstände werden bewusst ausgeschlossen.
 
 | Repository | Rolle | Status |
 |---|---|---|
