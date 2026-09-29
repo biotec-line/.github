@@ -2,6 +2,17 @@
 
 All notable changes to the `biotec-line` organization profile and shared community files will be documented in this file.
 
+## [1.0.8] - 2026-09-29
+
+### Maintenance, Discoverability & Index Sync
+- **Repository Index Refresh:** Re-verified public repository catalog for `biotec-line` via GitHub API on 2026-09-29. The organization holds exactly 3 repositories in total and all 3 are public (`.github`, `genotype-to-vcf`, `VFDistiller`); all 3 appear in `profile/README.md`, `profile/README_de.md`, root `README.md`, and `llms.txt`. No public repository is missing from the index and no private repository exists that could leak.
+- **Push Metadata & Activity Updated:** Synchronized latest public push timestamps from live GitHub metadata: `VFDistiller` (`2026-09-29`), `.github` (`2026-09-29`), `genotype-to-vcf` (`2026-09-26`). Activity tables are now ordered by recency in all four index surfaces.
+- **VFDistiller Hardening & Feature Highlights:** Synchronized latest project updates including Level 1 SBOM text-companion, multi-host lock defense, CI lifecycle workflows, clipboard TSV export alignment fix, defensive db checks, and accessibility dialog improvements.
+- **genotype-to-vcf Highlights:** Documented latest updates including PEP 621 metadata alignment, CI workflows, SBOM and contract tests, and verified banner asset integration.
+- **Badges & Bilingual Parity:** Verified 1:1 badge parity between English (`Verified 2026-09-29`) and German (`Geprüft 2026-09-29`) profiles.
+- **Last-Checked Timestamps:** Synchronized `<!-- last-checked: 2026-09-29 -->` across `profile/README.md`, `profile/README_de.md`, root `README.md`, and `llms.txt`.
+- **Automated Profile Parity Testing:** Full contract suite in `tests/test_profile_parity.py` re-run green (24 passed).
+
 ## [1.0.7] - 2026-09-23
 
 ### Maintenance, Discoverability & Index Sync
