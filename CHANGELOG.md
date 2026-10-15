@@ -1,5 +1,12 @@
 # Changelog - biotec-line/.github
 
+## Unreleased
+
+- Fix the Markdown fence guard to inspect declared file paths rather than
+  internal source identifiers. Five isolated negative cases prove that every
+  profile/catalog source rejects an unclosed fence.
+- Run the existing profile parity suite on Linux, Windows and macOS in CI.
+
 All notable changes to the `biotec-line` organization profile and shared community files will be documented in this file.
 
 ## [1.0.8] - 2026-09-29
