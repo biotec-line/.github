@@ -152,9 +152,16 @@ def test_sources_have_unique_addresses():
 def test_markdown_fence_balance(file_contents):
     """Verify that all markdown files have balanced triple backticks."""
     for filename, text in file_contents.items():
-        if filename.endswith((".md", ".txt")):
+        if SOURCE_PATHS[filename].suffix in (".md", ".txt"):
             matches = re.findall(r"^```", text, flags=re.MULTILINE)
             assert len(matches) % 2 == 0, f"Unbalanced code fences in {filename}: {len(matches)} count"
+
+
+@pytest.mark.parametrize("source_id", SOURCE_IDS)
+def test_unbalanced_fence_is_detected_in_each_source(file_contents, source_id):
+    mutated = {**file_contents, source_id: file_contents[source_id] + "\n```text\nunclosed fixture\n"}
+    with pytest.raises(AssertionError, match="Unbalanced code fences"):
+        test_markdown_fence_balance(mutated)
 
 
 @pytest.mark.parametrize("source_id", SOURCE_IDS)

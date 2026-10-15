@@ -24,6 +24,10 @@ Thank you for your interest in contributing! This guide applies to all repositor
 
 ## Code Style
 
+Run the profile and catalog contracts with `python -X utf8 -m pytest -q`.
+The `Profile parity` workflow runs them on Linux, Windows and macOS for pull
+requests and pushes to `main`, and can also be started manually.
+
 - **Python:** Follow ruff defaults, type hints encouraged
 - **JavaScript/TypeScript:** Follow prettier defaults
 - **Markdown:** One sentence per line for better diffs
