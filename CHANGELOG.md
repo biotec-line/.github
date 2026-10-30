@@ -1,13 +1,17 @@
 # Changelog - biotec-line/.github
 
-## Unreleased
-
-- Fix the Markdown fence guard to inspect declared file paths rather than
-  internal source identifiers. Five isolated negative cases prove that every
-  profile/catalog source rejects an unclosed fence.
-- Run the existing profile parity suite on Linux, Windows and macOS in CI.
-
 All notable changes to the `biotec-line` organization profile and shared community files will be documented in this file.
+
+## [Unreleased] - 2026-10-30
+
+### Maintenance, Discoverability, CI Hardening & Index Sync
+- **Repository Index Refresh:** Re-verified public repository catalog for `biotec-line` via GitHub API on 2026-10-30. The organization holds exactly 3 repositories in total and all 3 are public (`.github`, `genotype-to-vcf`, `VFDistiller`); all 3 appear in `profile/README.md`, `profile/README_de.md`, root `README.md`, and `llms.txt`. No public repository is missing from the index and no private repository exists that could leak.
+- **Push Metadata & Activity Updated:** Synchronized latest public push timestamps from live GitHub metadata: `.github` (`2026-10-30`), `genotype-to-vcf` (`2026-10-25`), `VFDistiller` (`2026-10-15`). Activity tables are now ordered by recency in all four index surfaces.
+- **genotype-to-vcf Highlights:** Documented latest updates including v1.0.3 release, privacy disclosures (dbSNP network transparency, omitted inferred sex in progress logs), native Windows CI, PySide6 GUI, and headless CLI.
+- **VFDistiller Security & SBOM Updates:** Documented latest project updates including Level 1 SBOM text-companion, multi-host lock defense, CI lifecycle workflows, clipboard TSV export alignment fix, defensive db checks, and accessibility dialog improvements.
+- **CI Matrix & Test Hardening:** Integrated native GitHub Actions workflow `.github/workflows/profile-parity.yml` testing Linux, Windows, and macOS (PR #1 review & integration), and fixed markdown code fence validation guard.
+- **Badges & Bilingual Parity:** Verified 1:1 badge parity between English (`Verified 2026-10-30`) and German (`Geprüft 2026-10-30`) profiles.
+- **Last-Checked Timestamps:** Synchronized `<!-- last-checked: 2026-10-30 -->` across `profile/README.md`, `profile/README_de.md`, root `README.md`, and `llms.txt`.
 
 ## [1.0.8] - 2026-09-29
 
