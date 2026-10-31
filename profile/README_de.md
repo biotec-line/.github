@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-10-30 -->
+<!-- last-checked: 2026-10-31 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line Logo" width="925">
 </p>
@@ -14,7 +14,7 @@
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Plattform-Windows_%7C_macOS_%7C_Linux-informational.svg?style=flat-square" alt="Plattform"></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ökosystem-open--bricks-orange.svg?style=flat-square" alt="open-bricks"></a>
   <a href="https://github.com/biotec-line/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Sicherheits_SLA-48h_Reaktion-critical.svg?style=flat-square" alt="Sicherheits-SLA"></a>
-  <a href="https://github.com/biotec-line/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Geprüft-2026--10--30-blue.svg?style=flat-square" alt="Geprüft 2026-10-30"></a>
+  <a href="https://github.com/biotec-line/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Geprüft-2026--10--31-blue.svg?style=flat-square" alt="Geprüft 2026-10-31"></a>
   <a href="README.md"><img src="https://img.shields.io/badge/Language-English-lightgrey.svg?style=flat-square" alt="English Version"></a>
 </p>
 
@@ -32,11 +32,11 @@ biotec-line entwickelt praxiserprobte Python-Desktop-Software zur sicheren Verar
 
 ## Aktuelle öffentliche Aktivitäten
 
-Das Organisationsprofil indexiert alle 3 öffentlichen biotec-line Repositories (verifiziert über GitHub-Metadaten am **30. Oktober 2026**). Die Organisation umfasst insgesamt genau 3 Repositories, das Verzeichnis ist damit vollständig — es existiert kein nicht gelistetes öffentliches Repository.
+Das Organisationsprofil indexiert alle 3 öffentlichen biotec-line Repositories (verifiziert über GitHub-Metadaten am **31. Oktober 2026**). Die Organisation umfasst insgesamt genau 3 Repositories, das Verzeichnis ist damit vollständig — es existiert kein nicht gelistetes öffentliches Repository.
 
 | Repository | Letzter öffentlicher Push | Hauptfokus |
 |---|---:|---|
-| [.github](https://github.com/biotec-line/.github) | 2026-10-30 | Öffentliche Startseite der Organisation, Community-Standards, plattformübergreifende CI-Matrix-Tests (`profile-parity.yml`) und maschinenlesbarer `llms.txt` Kontext |
+| [.github](https://github.com/biotec-line/.github) | 2026-10-31 | Öffentliche Startseite der Organisation, Community-Standards, plattformübergreifende CI-Matrix-Tests (`profile-parity.yml`) und maschinenlesbarer `llms.txt` Kontext |
 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-10-25 | DTC-DNA-Rohdaten zu VCF 4.2 Konvertierung mit PySide6 GUI, Headless CLI, GRCh37/GRCh38 Erkennung, dbSNP, Datenschutz-Härtung und FASTA Referenz-Lookup |
 | [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-10-15 | Local-First VCF/gVCF-Annotation Desktop-App mit Barrierefreiheit/Tastaturnavigation, Mehrebenen-App-Icons, gnomAD/ClinVar-Feldern, Level-1-SBOM-Begleitdokument, FASTA-Validierung und wissenschaftlichen Exporten |
 
@@ -71,7 +71,7 @@ graph TD
 
 ## Verzeichnis Öffentlicher Repositories
 
-Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation biotec-line auf (Stand: **30. Oktober 2026**). Private, interne oder noch unveröffentlichte Entwicklungsstände werden bewusst ausgeschlossen.
+Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation biotec-line auf (Stand: **31. Oktober 2026**). Private, interne oder noch unveröffentlichte Entwicklungsstände werden bewusst ausgeschlossen.
 
 | Repository | Rolle | Status |
 |---|---|---|
@@ -81,7 +81,11 @@ Dieses Verzeichnis listet alle 3 öffentlichen Repositories der Organisation bio
 
 ## Tool-Vitrine
 
-<p align="center"><a href="https://github.com/biotec-line/genotype-to-vcf"><img src="https://raw.githubusercontent.com/biotec-line/genotype-to-vcf/master/assets/banner.svg" alt="genotype-to-vcf" width="680" style="border:2px solid #3b82f6;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/biotec-line/VFDistiller"><img src="https://raw.githubusercontent.com/biotec-line/VFDistiller/main/assets/banner.svg" alt="VFDistiller" width="680" style="border:2px solid #34d399;border-radius:8px;display:block;margin:0 auto"></a></p>
+<p align="center">
+  <a href="https://github.com/biotec-line/genotype-to-vcf"><img src="https://raw.githubusercontent.com/biotec-line/genotype-to-vcf/master/assets/banner.svg" alt="genotype-to-vcf" width="700" style="border:2px solid #3b82f6;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <br/>
+  <a href="https://github.com/biotec-line/VFDistiller"><img src="https://raw.githubusercontent.com/biotec-line/VFDistiller/main/assets/banner.svg" alt="VFDistiller" width="700" style="border:2px solid #34d399;border-radius:8px;display:block;margin:0 auto"></a>
+</p>
 
 ## Projekt-Familien
 
@@ -120,7 +124,7 @@ Für Crawler und LLM-Tools siehe [`llms.txt`](https://github.com/biotec-line/.gi
 
 ## Suchbegriffe & Auffindbarkeit
 
-Nützliche Suchbegriffe für GitHub und Websuchmaschinen: `biotec-line Bioinformatik GitHub`, `biotec-line VCF Tools`, `DTC DNA zu VCF Konverter`, `23andMe MyHeritage FTDNA TellMeGen VCF Konvertierung`, `Local-First VCF Annotation Desktop App`, `genotype-to-vcf CLI Headless Pipeline`, `gVCF Filterung GUI`, `gnomAD ClinVar FASTA Varianten Review`, `Research-Use-Only Gen-Varianten Software`, `Offline Bioinformatik Desktop Software`, `GRCh37 GRCh38 Build Erkennung Python`, `Bioinformatik Datenschutz Open Source`, `DTC DNA zu VCF Python`, `gnomAD Offline Variantenfilter`, `Lokaler FASTA Referenzabgleich`, und `Offline Humangenetik Software`.
+Nützliche Suchbegriffe für GitHub und Websuchmaschinen: `biotec-line Bioinformatik GitHub`, `biotec-line VCF Tools`, `DTC DNA zu VCF Konverter`, `23andMe MyHeritage FTDNA TellMeGen VCF Konvertierung`, `AncestryDNA zu VCF Konvertierung`, `Local-First VCF Annotation Desktop App`, `genotype-to-vcf CLI Headless Pipeline`, `gVCF Filterung GUI`, `gnomAD ClinVar FASTA Varianten Review`, `Offline ClinVar Pathogenitätsprüfung`, `Research-Use-Only Gen-Varianten Software`, `Offline Bioinformatik Desktop Software`, `Datenschutzfreundliche Variantenanalyse`, `GRCh37 GRCh38 Build Erkennung Python`, `Bioinformatik Datenschutz Open Source`, `DTC DNA zu VCF Python`, `gnomAD Offline Variantenfilter`, `BCFtools Alternative Python GUI`, `Offline Whole Exome Filterung`, `Lokaler FASTA Referenzabgleich`, und `Offline Humangenetik Software`.
 
 ## Ökosystem & Verwandte Organisationen
 

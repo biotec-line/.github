@@ -1,12 +1,12 @@
 # biotec-line .github
 
-<!-- public-index-last-checked: 2026-10-30 -->
+<!-- public-index-last-checked: 2026-10-31 -->
 
 Organization profile and community health files for [biotec-line](https://github.com/biotec-line).
 
 This repository controls the public organization overview shown on GitHub and the shared contribution, security, issue, and pull request templates used across the biotec-line bioinformatics projects.
 
-The public profile README is also the maintained repository directory for the organization: it lists all public biotec-line repositories and deliberately excludes private, internal, or unreleased work. The current public index was verified against GitHub on **2026-10-30**. The organization contains exactly 3 repositories in total and all 3 are public, so the directory below covers the organization completely.
+The public profile README is also the maintained repository directory for the organization: it lists all public biotec-line repositories and deliberately excludes private, internal, or unreleased work. The current public index was verified against GitHub on **2026-10-31**. The organization contains exactly 3 repositories in total and all 3 are public, so the directory below covers the organization completely.
 
 ## Public Repository Directory
 
@@ -20,7 +20,7 @@ The public profile README is also the maintained repository directory for the or
 
 | Repository | Latest public push seen in GitHub metadata | Notes |
 |---|---:|---|
-| [.github](https://github.com/biotec-line/.github) | 2026-10-30 | Organization profile start page, shared community-health files, multi-platform CI matrix (profile-parity.yml), and machine-readable llms.txt crawler context. |
+| [.github](https://github.com/biotec-line/.github) | 2026-10-31 | Organization profile start page, shared community-health files, multi-platform CI matrix (profile-parity.yml), and machine-readable llms.txt crawler context. |
 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-10-25 | Active DTC DNA to VCF converter with v1.0.3 release, privacy disclosures (dbSNP network transparency, omitted inferred sex in progress logs), native Windows CI, PySide6 GUI, and headless CLI. |
 | [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-10-15 | Active local-first VCF/gVCF annotation desktop app with a11y keyboard navigation, multi-resolution app icons, gnomAD/ClinVar fields, Level 1 SBOM text-companion, and research-use-only export workflows. |
 
