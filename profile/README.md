@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-10-30 -->
+<!-- last-checked: 2026-10-31 -->
 <p align="center">
   <img src="./logo.jpg" alt="biotec-line logo" width="925">
 </p>
@@ -14,7 +14,7 @@
   <a href="https://github.com/biotec-line"><img src="https://img.shields.io/badge/Platform-Windows_%7C_macOS_%7C_Linux-informational.svg?style=flat-square" alt="Platform"></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Ecosystem-open--bricks-orange.svg?style=flat-square" alt="open-bricks"></a>
   <a href="https://github.com/biotec-line/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_SLA-48h_Response-critical.svg?style=flat-square" alt="Security SLA"></a>
-  <a href="https://github.com/biotec-line/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Verified-2026--10--30-blue.svg?style=flat-square" alt="Verified 2026-10-30"></a>
+  <a href="https://github.com/biotec-line/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Verified-2026--10--31-blue.svg?style=flat-square" alt="Verified 2026-10-31"></a>
   <a href="README_de.md"><img src="https://img.shields.io/badge/Sprache-Deutsch-lightgrey.svg?style=flat-square" alt="German Version"></a>
 </p>
 
@@ -32,11 +32,11 @@ biotec-line builds practical, privacy-centric Python desktop software for workin
 
 ## Current Public Activity
 
-The organization profile indexes all 3 public biotec-line repositories, verified against GitHub metadata on **2026-10-30**. The organization holds exactly 3 repositories in total, so the public directory below is complete by construction — there is no unlisted public repository.
+The organization profile indexes all 3 public biotec-line repositories, verified against GitHub metadata on **2026-10-31**. The organization holds exactly 3 repositories in total, so the public directory below is complete by construction — there is no unlisted public repository.
 
 | Repository | Latest public push | Public focus |
 |---|---:|---|
-| [.github](https://github.com/biotec-line/.github) | 2026-10-30 | Public organization start page, shared community-health defaults, cross-platform CI matrix testing (`profile-parity.yml`), and machine-readable `llms.txt` discovery context |
+| [.github](https://github.com/biotec-line/.github) | 2026-10-31 | Public organization start page, shared community-health defaults, cross-platform CI matrix testing (`profile-parity.yml`), and machine-readable `llms.txt` discovery context |
 | [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) | 2026-10-25 | DTC DNA raw-data to VCF 4.2 conversion with PySide6 GUI, headless CLI, GRCh37/GRCh38 detection, dbSNP, privacy disclosures, and FASTA reference lookup |
 | [VFDistiller](https://github.com/biotec-line/VFDistiller) | 2026-10-15 | Local-first VCF/gVCF annotation desktop app; accessibility & keyboard navigation, multi-layer app icons, gnomAD/ClinVar-oriented fields, Level 1 SBOM text-companion, FASTA validation, and research exports |
 
@@ -71,7 +71,7 @@ graph TD
 
 ## Public Repository Directory
 
-This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on **2026-10-30**. Private, internal, or unreleased research work is intentionally not listed here.
+This directory lists all 3 public repositories that are part of the biotec-line organization profile as verified on **2026-10-31**. Private, internal, or unreleased research work is intentionally not listed here.
 
 | Repository | Role | Public status |
 |---|---|---|
@@ -81,7 +81,11 @@ This directory lists all 3 public repositories that are part of the biotec-line 
 
 ## Tool Showcase
 
-<p align="center"><a href="https://github.com/biotec-line/genotype-to-vcf"><img src="https://raw.githubusercontent.com/biotec-line/genotype-to-vcf/master/assets/banner.svg" alt="genotype-to-vcf" width="680" style="border:2px solid #3b82f6;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/biotec-line/VFDistiller"><img src="https://raw.githubusercontent.com/biotec-line/VFDistiller/main/assets/banner.svg" alt="VFDistiller" width="680" style="border:2px solid #34d399;border-radius:8px;display:block;margin:0 auto"></a></p>
+<p align="center">
+  <a href="https://github.com/biotec-line/genotype-to-vcf"><img src="https://raw.githubusercontent.com/biotec-line/genotype-to-vcf/master/assets/banner.svg" alt="genotype-to-vcf" width="700" style="border:2px solid #3b82f6;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <br/>
+  <a href="https://github.com/biotec-line/VFDistiller"><img src="https://raw.githubusercontent.com/biotec-line/VFDistiller/main/assets/banner.svg" alt="VFDistiller" width="700" style="border:2px solid #34d399;border-radius:8px;display:block;margin:0 auto"></a>
+</p>
 
 ## Project Families
 
@@ -120,7 +124,7 @@ For crawlers and LLM tools, see [`llms.txt`](https://github.com/biotec-line/.git
 
 ## Search And Discovery
 
-Useful GitHub and web search phrases include `biotec-line VCF tools`, `DTC DNA to VCF converter`, `23andMe MyHeritage FTDNA TellMeGen VCF conversion`, `local-first VCF annotation desktop app`, `genotype-to-vcf CLI headless pipeline`, `gVCF filtering GUI`, `gnomAD ClinVar FASTA variant review`, `research-use-only genetic variant annotation software`, `offline bioinformatics desktop tools`, `privacy-first genomic data conversion`, `GRCh37 GRCh38 auto-detection Python`, `bioinformatics local-first open-source`, `DTC genomics local-first`, `23andMe VCF converter python`, `gnomAD offline variant filtering`, and `local FASTA reference matching`.
+Useful GitHub and web search phrases include `biotec-line VCF tools`, `DTC DNA to VCF converter`, `23andMe MyHeritage FTDNA TellMeGen VCF conversion`, `AncestryDNA to VCF raw data converter`, `local-first VCF annotation desktop app`, `genotype-to-vcf CLI headless pipeline`, `gVCF filtering GUI`, `gnomAD ClinVar FASTA variant review`, `offline ClinVar variant pathogenicity review`, `research-use-only genetic variant annotation software`, `offline bioinformatics desktop tools`, `privacy-first genomic data conversion`, `privacy-preserving genetic variant analysis`, `GRCh37 GRCh38 auto-detection Python`, `bioinformatics local-first open-source`, `DTC genomics local-first`, `23andMe VCF converter python`, `gnomAD offline variant filtering`, `BCFtools alternative python desktop GUI`, `offline whole exome variant filtering`, and `local FASTA reference matching`.
 
 ## Ecosystem
 
